@@ -91,8 +91,8 @@ section h3 {
 }
 
 .participants ul {
-  list-style: disc;
-  padding-left: 20px;
+  list-style: none;
+  padding-left: 0;
   margin: 0;
   display: block;
 }
@@ -104,6 +104,22 @@ section h3 {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+/* delete button shown beside each participant */
+.participant-delete {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 4px 6px;
+  border-radius: 4px;
+  margin-left: auto;
+}
+.participant-delete:hover {
+  background: rgba(198,40,40,0.08);
 }
 
 /* small circular badge for participant (initials) */
